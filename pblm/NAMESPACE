@@ -1,0 +1,25 @@
+import(Matrix, lattice, splines)
+importFrom("MASS", "ginv")
+importFrom("methods", "is")
+importFrom("graphics", "axis", "lines", "par", "plot", "polygon","segments")
+importFrom("stats", "AIC", "as.formula", "deviance", "df", "fitted",
+            "fivenum", "formula", "logLik", "model.frame",
+            "model.matrix", "model.response", "na.omit", "optim",
+            "optimize", "pchisq", "pnorm", "predict", "quantile",
+            "resid", "terms", "terms.formula", "vcov", "xtabs")
+export(pblm,print.pblm,summary.pblm,print.summary.pblm,AIC.pblm,logLik.pblm, 
+       coef.pblm,pbs,pb,edf.pblm,se.smooth.pblm,vcov.pblm,
+       residuals.pblm,resid.pblm,fitted.pblm,predict.pblm,deviance.pblm,
+       pblm.control,pblm.penalty,pblm.prop,multicolumn,chisq.test.pblm)
+S3method(print,pblm)
+S3method(summary,pblm)
+S3method(print,summary.pblm)
+S3method(AIC,pblm)
+S3method(coef,pblm)
+S3method(logLik,pblm)
+S3method(vcov,pblm)
+S3method(residuals,pblm)
+S3method(fitted,pblm)
+S3method(predict,pblm)
+S3method(deviance,pblm)
+S3method(plot,pblm)

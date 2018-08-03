@@ -1,0 +1,21 @@
+Package: pblm
+Type: Package
+Title: Bivariate Additive Marginal Logistic Regression via Maximum
+        Penalized Likelihood Estimation
+Version: 0.1-8
+Date: 2017-04-2
+Author: Marco Enea, with contributions by Mikis Stasinopoulos and Robert Rigby
+Maintainer: Marco Enea <marco.enea@unipa.it>
+Depends: R (>= 3.2.2), Matrix, lattice, splines, MASS
+Imports: methods
+Description: Bivariate additive categorical regression for moderate-to-small size datasets. 
+             Under a multinomial scheme, it is possible to fit bivariate models when the two responses are 
+             nominal, ordinal or mixed nominal/ordinal. Partial proportional odds models with (non-)uniform association structure can be fitted with the possibility to specify several logit types 
+             and parametrizations for the marginals and the association, including the Dale's model. 
+             The association structure can also be smoothed using  
+             penalty terms of polynomial type. P-splines are used in the additive part of the model. 
+	     Common methods such as summary, residuals and predict are available.    
+License: GPL (>= 2)
+LazyData: TRUE
+NeedsCompilation: no
+Packaged: 2018-02-01 00:01:08 UTC; Marco
