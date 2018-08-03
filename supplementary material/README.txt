@@ -1,13 +1,9 @@
 *********************************************************************************
 This file describes the supplementary material accompanying the code of the paper:
 
-"A penalized approach for the bivariate ordered logistic model with applications 
- to social and medical data."  
-
-by Marco Enea and Gianfranco Lovison
+Enea, M., Lovison, G. 2018. A penalized approach for the bivariate ordered logistic model with applications to social and medical data. Statistical Modelling, DOI: 10.1177/1471082X18782063.
 
 
-submitted to Statistical Modelling.
 **********************************************************************************
 
 

@@ -19,3 +19,5 @@ License: GPL (>= 2)
 LazyData: TRUE
 NeedsCompilation: no
 Packaged: 2018-02-01 00:01:08 UTC; Marco
+URL: http://github.com/enea/pblm
+BugReports: http://github.com/enea/pblm/issues
