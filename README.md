@@ -6,3 +6,11 @@ This is an R package, by Marco Enea, to fit bivariate additive categorical regre
 The Supplementary Material folder contains R code for examples and simulations reported in the pubblication: 
 
 Enea, M., Lovison, G. 2018. A penalized approach for the bivariate ordered logistic model with applications to social and medical data. Statistical Modelling, DOI: 10.1177/1471082X18782063.  
+
+To install this package on R:
+
+install.packages("devtools")
+
+library(devtools)
+
+install_github("MarcoEnea/pblm/pblm")
